@@ -85,6 +85,15 @@ Show 10 most recent notes by modification time. `--all` flag shows everything. F
 
 Search frontmatter (title, tags, aliases) first, then body. Rank frontmatter matches higher. Display title, folder, and excerpt.
 
+## PR Requirements
+
+Before creating a pull request:
+
+- **All tests must pass:** `make test` must exit 0 with no failures.
+- **No lint errors:** `make lint` must exit 0 with no warnings or errors.
+
+Do not create a PR if either check fails. Fix all issues first.
+
 ## Conventions
 
 - Use `fmt.Fprintf(os.Stderr, ...)` for prompts, `fmt.Println` for output
