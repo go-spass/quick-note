@@ -5,7 +5,7 @@ A lightweight CLI (`qn`) for quickly capturing notes into a plain-file second br
 ## Install
 
 ```bash
-go install go-spass/quick-note/cmd/qn@latest
+go install github.com/go-spass/quick-note/cmd/qn@latest
 ```
 
 Or build from source:
